@@ -2,4 +2,9 @@
 
 
 #include "MyGameModeBase.h"
+#include "MyCharacter.h"
 
+AMyGameModeBase::AMyGameModeBase()
+{
+	DefaultPawnClass = AMyCharacter::StaticClass();
+}

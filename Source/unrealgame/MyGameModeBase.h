@@ -14,4 +14,6 @@ class UNREALGAME_API AMyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	AMyGameModeBase();
 };
